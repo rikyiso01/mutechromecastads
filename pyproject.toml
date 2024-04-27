@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mutechromecastads"
+version = "0.1.0"
+description = ""
+authors = ["rikyiso01 <riky.isola@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+protobuf = "3.20.3"
+PyChromecast = "9.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

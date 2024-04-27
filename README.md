@@ -22,7 +22,7 @@ This program will mute your chromecast when the ads are playing and will restore
 ### podman
 
 > ```bash
-> podman run --env CHROMECAST_HOST=hostname ghcr.io/rikyiso01/mutechromecastads
+> podman run --rm --env CHROMECAST_HOST=hostname ghcr.io/rikyiso01/mutechromecastads
 > ```
 >
 > where hostname is the hostname or the ip of the chromecast device
